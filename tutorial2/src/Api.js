@@ -5,6 +5,7 @@ class App extends Component {
         data: [],
     }
 
+    // Wikipedia APIのデータがDOMにレンダリング(表示するメソッド)
     componentDidMount() {
         const url = 'https://en.wikipedia.org/w/api.php?action=opensearch&search=Seona+Dancing&format=json&origin=*'
 
